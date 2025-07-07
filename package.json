@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start:client": "node --loader ts-node/esm client.ts"
+  },
+  "keywords": [],
+  "author": "Maximilian Schwarzmüller | Jeetan Madaan",
+  "license": "MIT",
+  "description": "Demo MCP client consuming the Mule MCP server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "dotenv": "^17.0.1",
+    "openai": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
